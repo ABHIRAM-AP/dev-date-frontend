@@ -77,11 +77,11 @@ class _HomePageState extends State<HomePage> {
                                 ),
                               ],
                             ),
-                            child: const Icon(
-                              Icons.person,
-                              color: Color(0xFFD55858),
-                              size: 24,
-                            ),
+                            // child: const Icon(
+                            //   Icons.person,
+                            //   color: Color(0xFFD55858),
+                            //   size: 24,
+                            // ),
                           ),
                           Text(
                             "Abhiram A.P",
