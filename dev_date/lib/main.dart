@@ -1,4 +1,4 @@
-import 'package:dev_date/home_page.dart';
+import 'package:dev_date/user_profile.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const HomePage(),
+      home: const UserProfile(),
     );
   }
 }
