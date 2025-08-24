@@ -13,6 +13,9 @@ class _UserProfileState extends State<UserProfile> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        automaticallyImplyLeading: true,
+      ),
       backgroundColor: const Color(0xFFC95759),
       body: SafeArea(
         child: Column(
